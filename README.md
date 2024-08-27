@@ -17,3 +17,9 @@ The project consists of the following microservices:
 ## Project Structure
 Each microservice is encapsulated in its own module with the following structure:
 
+## Prerequisites
+- Java 17 or higher
+- Spring Boot 3.x
+- Docker
+- MySQL
+- RabbitMQ / Kafka (depending on message broker used)
