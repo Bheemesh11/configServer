@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/his
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/microservices
     username: root
-    password: root
+    password: VK@225
   jpa:
     hibernate:
       ddl-auto: update
