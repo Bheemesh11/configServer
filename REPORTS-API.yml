@@ -1,0 +1,33 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/his
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  mail:
+    host: smtp.gmail.com
+    password: bgic txqx qhwv foxc
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+    username: manideep.pagadala@gmail.com
+  main:
+    banner-mode: off
+  application:
+    name: REPORTS-API
+  boot:
+    admin:
+      client:
+        url: http://localhost:9090/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
